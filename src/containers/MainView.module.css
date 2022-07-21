@@ -1,0 +1,62 @@
+.container {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 80rem;
+  max-height: 50rem;
+  -webkit-box-shadow: 0px 0px 114px -85px rgba(255, 255, 255, 0.76);
+  -moz-box-shadow: 0px 0px 114px -85px rgba(255, 255, 255, 0.76);
+  box-shadow: 0px 0px 114px -85px rgba(255, 255, 255, 0.76);
+  border: 1px solid #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.boxFlex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+}
+
+.mainNav {
+  height: 10%;
+  width: 100%;
+  border: 1px solid #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.mainCity {
+  height: 60%;
+  width: 60%;
+  margin: 5rem;
+
+  border: 1px solid #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.mainCities {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.mainCities::-webkit-scrollbar {
+  width: 1rem;
+  background: transparent;
+}
