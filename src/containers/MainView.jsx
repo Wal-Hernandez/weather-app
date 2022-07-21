@@ -7,7 +7,7 @@ import { Ciudad } from "../components/Ciudad.jsx";
 import { About } from "../components/About.jsx";
 import styles from "./MainView.module.css";
 
-const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
+const apiKey = process.env.APIKEY;
 
 function MainView() {
   const [cities, setCities] = useState([]);
